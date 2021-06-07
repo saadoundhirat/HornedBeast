@@ -6,7 +6,7 @@ class Header extends React.Component {
         return (
             <div className="container">
                 <div className="imgcontainer">
-                <img src={saad} alt="SaadounDhirat"/>
+                <img src={saad} title="SaadounDhirat" alt="saadoun"/>
                 </div>
                 <h1 className="header"> HornedBeast</h1>
             </div>
