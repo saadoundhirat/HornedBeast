@@ -16,7 +16,6 @@ body {
     align-items: center;
     justify-content:center;
     background-color: black;
-    height:25vh;
      
 }
 .header {
@@ -38,20 +37,37 @@ body {
     border-radius:50%;
 }
 
-
 /*  main container style  */
-
-
 .maincontainer {
     width: 50rem;
-    height: 50vh;
-    margin: 0 auto;
-    background-color:green;
+    margin: 1rem auto;
+    background-color:#343535;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
 
 }
-
-
-
+.maincontainer .horend-items {
+    margin-top: 1.2rem;
+    border: 5px  #8f300e solid;
+}
+.maincontainer .horend-items img {
+    width:100%;
+    height: inherit;
+    margin: 2rem 0;
+}
+.maincontainer .horend-items h2 {
+    font-size:2rem;
+    margin-top: 0.8rem;
+    color: #d9643a;
+    text-align:center;
+}
+.maincontainer .horend-items p {
+    font-size:1.5rem;
+    margin-bottom: 0.8rem;
+    color: #d9643a;
+    text-align:center;
+}
 
 /* footer style */
 .footer {
